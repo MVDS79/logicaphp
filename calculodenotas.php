@@ -3,16 +3,19 @@
 // calcule a media e se o aluno teve nota maior ou igual a 7 aprovado
 // se teve nota menor que 7 reprovado
 
-$nota1 = 8;
-$nota2 = 5;
+$nota1 = 2;
+$nota2 = 3;
 $nota3 = 4;
-$nota4 = 9;
+$nota4 = 3;
 $aluno = "Zé";
 
 $media = ($nota1 + $nota2 + $nota3 + $nota4) /4;
 
 if ($media >= 7) {
     echo $aluno . ", você foi reprovado com média " . $media;
-} else  {
+} else if ($media , 7 && $media <= 5) {
+    echo $aluno . ", você esta em recuperação com media " .$media;
+} 
+  else {
     echo $aluno . ", você foi reprovado com media " . $media;
 }
