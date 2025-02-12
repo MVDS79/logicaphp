@@ -28,6 +28,7 @@ $dados = array(
         "email" => "mvds79@yahoo.com.br"
     )
 );
+
 // exibição dos dados
 
 foreach ($dados as $chave => $valor) {
